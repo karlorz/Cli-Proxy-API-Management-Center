@@ -488,5 +488,11 @@ export function buildTimelineLane(input: TimelineLaneInput): TimelineLane {
     };
   }
 
+  // Poe has no rate-limit window — the compute-points balance is additive and
+  // never "recovers" — so it contributes an empty lane rather than a drawn one.
+  if (provider === 'poe') {
+    return empty;
+  }
+
   return empty;
 }

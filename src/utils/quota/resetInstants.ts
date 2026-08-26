@@ -30,17 +30,19 @@ export function parseIsoToMs(value: unknown): number | null {
 }
 
 /**
- * Parse a Unix timestamp to epoch ms, accepting seconds or milliseconds.
+ * Parse a Unix timestamp to epoch ms, accepting seconds, milliseconds, or
+ * microseconds.
  *
  * Disambiguated by magnitude: seconds-since-epoch stays ~1e9 well past the year
- * 2200, while a millisecond value is ~1e12 today, so the gap is unambiguous for
- * any timestamp this application will encounter.
+ * 2200, a millisecond value is ~1e12 today, and a microsecond value is ~1e15
+ * today, so the gaps are unambiguous for any timestamp this application will
+ * encounter.
  */
 export function parseUnixToMs(value: unknown): number | null {
   const numeric =
     typeof value === 'number' ? value : typeof value === 'string' ? Number(value.trim()) : NaN;
   if (!Number.isFinite(numeric) || numeric <= 0) return null;
-  return numeric < 1e11 ? numeric * 1000 : numeric;
+  return numeric < 1e11 ? numeric * 1000 : numeric < 1e14 ? numeric : numeric / 1000;
 }
 
 /** Seconds-from-now to an absolute instant, relative to `now`. */

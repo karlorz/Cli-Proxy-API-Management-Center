@@ -358,7 +358,8 @@
     "quota_refresh_single": "Обновить квоту",
     "quota_refresh_hint": "Обновить квоту только для этих учётных данных",
     "quota_refresh_success": "Квота для \"{{name}}\" обновлена",
-    "quota_refresh_failed": "Не удалось обновить квоту для \"{{name}}\": {{message}}"
+    "quota_refresh_failed": "Не удалось обновить квоту для \"{{name}}\": {{message}}",
+    "filter_poe": "Poe"
   },
   "antigravity_subscription": {
     "plan_unknown": "Неизвестно",
@@ -500,6 +501,25 @@
     "pay_as_you_go_label": "Оплата по факту",
     "pay_as_you_go_enabled": "Включено, лимит {{cap}}",
     "pay_as_you_go_disabled": "Отключено"
+  },
+  "poe_quota": {
+    "title": "Квота Poe",
+    "empty_title": "Файлы авторизации Poe отсутствуют",
+    "empty_desc": "Загрузите учётные данные API-ключа Poe, чтобы увидеть остаток вычислительных баллов.",
+    "idle": "Не загружено. Нажмите \"Обновить квоту\".",
+    "loading": "Загрузка квоты...",
+    "load_failed": "Не удалось загрузить квоту: {{message}}",
+    "missing_auth_index": "В файле авторизации отсутствует auth_index",
+    "empty_data": "Данные по квоте отсутствуют",
+    "refresh_button": "Обновить квоту",
+    "fetch_all": "Получить все",
+    "balance_label": "Доступные баллы",
+    "plan_points": "Баллы плана",
+    "addon_points": "Дополнительные баллы",
+    "usd_equivalent": "Эквивалент в USD",
+    "next_grant": "Следующее ежедневное начисление",
+    "next_grant_amount": "Следующее ежедневное начисление: {{amount}}",
+    "cycle_started": "Цикл баллов начался"
   },
   "vertex_import": {
     "title": "Вход с Vertex JSON",

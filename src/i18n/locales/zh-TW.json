@@ -365,7 +365,8 @@
     "quota_refresh_single": "重新整理配額",
     "quota_refresh_hint": "僅重新整理該驗證檔案的配額",
     "quota_refresh_success": "已重新整理「{{name}}」的配額",
-    "quota_refresh_failed": "重新整理「{{name}}」的配額失敗：{{message}}"
+    "quota_refresh_failed": "重新整理「{{name}}」的配額失敗：{{message}}",
+    "filter_poe": "Poe"
   },
   "antigravity_subscription": {
     "plan_unknown": "未知",
@@ -513,6 +514,25 @@
     "pay_as_you_go_label": "按量付費",
     "pay_as_you_go_enabled": "已啟用，封頂 {{cap}}",
     "pay_as_you_go_disabled": "未啟用"
+  },
+  "poe_quota": {
+    "title": "Poe 配額",
+    "empty_title": "暫無 Poe 驗證",
+    "empty_desc": "上傳 Poe API 金鑰驗證檔案後即可查看計算點數餘額。",
+    "idle": "點擊此處重新整理配額",
+    "loading": "正在載入配額...",
+    "load_failed": "配額取得失敗：{{message}}",
+    "missing_auth_index": "驗證檔案缺少 auth_index",
+    "empty_data": "暫無配額資料",
+    "refresh_button": "重新整理配額",
+    "fetch_all": "取得全部",
+    "balance_label": "可用點數",
+    "plan_points": "方案點數",
+    "addon_points": "附加點數",
+    "usd_equivalent": "美元等值",
+    "next_grant": "下次每日授予",
+    "next_grant_amount": "下次每日授予：{{amount}}",
+    "cycle_started": "點數週期已開始"
   },
   "vertex_import": {
     "title": "Vertex JSON 登入",

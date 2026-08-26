@@ -129,6 +129,14 @@ export function collectQuotaRowInstants(
     return collectRows((quota as { rows?: WindowLike[] }).rows ?? [], 'row');
   }
 
+  // Poe's balance grant schedule is not a capacity-return event: the daily
+  // grant is additive and there is no rate-limit window that "recovers". Poe
+  // credentials therefore never contribute a recovery instant, and the
+  // soonest-first sort treats them like any credential with nothing pending.
+  if (provider === 'poe') {
+    return [];
+  }
+
   return [];
 }
 

@@ -162,3 +162,11 @@ export const XAI_API_REQUEST_HEADERS = {
   Authorization: 'Bearer $TOKEN$',
   accept: 'application/json',
 };
+
+// Poe API configuration (compute-points usage API)
+export const POE_BALANCE_URL = 'https://api.poe.com/usage/current_balance';
+export const POE_HISTORY_URL = 'https://api.poe.com/usage/points_history';
+
+export const POE_REQUEST_HEADERS = {
+  Authorization: 'Bearer $TOKEN$',
+};

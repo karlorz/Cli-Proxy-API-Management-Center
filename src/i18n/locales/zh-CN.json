@@ -365,7 +365,8 @@
     "quota_refresh_single": "刷新额度",
     "quota_refresh_hint": "仅刷新该认证文件的额度",
     "quota_refresh_success": "已刷新 \"{{name}}\" 的额度",
-    "quota_refresh_failed": "刷新 \"{{name}}\" 的额度失败：{{message}}"
+    "quota_refresh_failed": "刷新 \"{{name}}\" 的额度失败：{{message}}",
+    "filter_poe": "Poe"
   },
   "antigravity_subscription": {
     "plan_unknown": "未知",
@@ -513,6 +514,25 @@
     "pay_as_you_go_label": "按量付费",
     "pay_as_you_go_enabled": "已启用，封顶 {{cap}}",
     "pay_as_you_go_disabled": "未启用"
+  },
+  "poe_quota": {
+    "title": "Poe 额度",
+    "empty_title": "暂无 Poe 认证",
+    "empty_desc": "上传 Poe API 密钥认证文件后即可查看计算点数余额。",
+    "idle": "点击此处刷新额度",
+    "loading": "正在加载额度...",
+    "load_failed": "额度获取失败：{{message}}",
+    "missing_auth_index": "认证文件缺少 auth_index",
+    "empty_data": "暂无额度数据",
+    "refresh_button": "刷新额度",
+    "fetch_all": "获取全部",
+    "balance_label": "可用点数",
+    "plan_points": "套餐点数",
+    "addon_points": "附加点数",
+    "usd_equivalent": "美元等值",
+    "next_grant": "下次每日授予",
+    "next_grant_amount": "下次每日授予：{{amount}}",
+    "cycle_started": "点数周期已开始"
   },
   "vertex_import": {
     "title": "Vertex JSON 登录",

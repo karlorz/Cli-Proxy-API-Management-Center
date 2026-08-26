@@ -365,7 +365,8 @@
     "quota_refresh_single": "Refresh quota",
     "quota_refresh_hint": "Refresh quota only for this credential",
     "quota_refresh_success": "Quota refreshed for \"{{name}}\"",
-    "quota_refresh_failed": "Failed to refresh quota for \"{{name}}\": {{message}}"
+    "quota_refresh_failed": "Failed to refresh quota for \"{{name}}\": {{message}}",
+    "filter_poe": "Poe"
   },
   "antigravity_subscription": {
     "plan_unknown": "Unknown",
@@ -513,6 +514,25 @@
     "pay_as_you_go_label": "Pay as you go",
     "pay_as_you_go_enabled": "Enabled, cap {{cap}}",
     "pay_as_you_go_disabled": "Disabled"
+  },
+  "poe_quota": {
+    "title": "Poe Quota",
+    "empty_title": "No Poe Auth Files",
+    "empty_desc": "Upload a Poe API-key credential to view compute-points balance.",
+    "idle": "Click here to refresh quota",
+    "loading": "Loading quota...",
+    "load_failed": "Failed to load quota: {{message}}",
+    "missing_auth_index": "Auth file missing auth_index",
+    "empty_data": "No quota data available",
+    "refresh_button": "Refresh Quota",
+    "fetch_all": "Fetch All",
+    "balance_label": "Available points",
+    "plan_points": "Plan points",
+    "addon_points": "Add-on points",
+    "usd_equivalent": "USD equivalent",
+    "next_grant": "Next daily grant",
+    "next_grant_amount": "Next daily grant: {{amount}}",
+    "cycle_started": "Points cycle started"
   },
   "vertex_import": {
     "title": "Vertex JSON Login",

@@ -397,3 +397,26 @@ export interface XaiQuotaState {
   error?: string;
   errorStatus?: number;
 }
+
+// Poe API payload types
+export interface PoeBalancePayload {
+  current_point_balance?: number | string;
+  plan_points_balance?: number | string;
+  addon_point_balance?: number | string;
+  plan_balance_usd?: string | number;
+  addon_balance_usd?: string | number;
+  total_balance_usd?: string | number;
+  points_cycle_start_time?: number | string;
+  next_daily_grant_time?: number | string;
+  next_monthly_grant_time?: number | string;
+  next_daily_grant_amount?: number | string;
+  next_monthly_grant_amount?: number | string;
+  auto_recharge?: unknown;
+}
+
+export interface PoeQuotaState {
+  status: 'idle' | 'loading' | 'success' | 'error';
+  balance: PoeBalancePayload | null;
+  error?: string;
+  errorStatus?: number;
+}
