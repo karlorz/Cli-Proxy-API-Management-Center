@@ -440,7 +440,8 @@
     "quota_refresh_single": "Kotayı Yenile",
     "quota_refresh_hint": "Yalnızca Bu Kimlik Bilgisinin Kotasını Yenile",
     "quota_refresh_success": "“{{name}}” için Kota Yenilendi",
-    "quota_refresh_failed": "“{{name}}” için Kota Yenilenemedi: {{message}}"
+    "quota_refresh_failed": "“{{name}}” için Kota Yenilenemedi: {{message}}",
+    "filter_poe": "Poe"
   },
   "antigravity_subscription": {
     "plan_unknown": "Bilinmiyor",
@@ -672,6 +673,25 @@
     "pay_as_you_go_label": "Kullandıkça Öde",
     "pay_as_you_go_enabled": "Etkin, Tavan {{cap}}",
     "pay_as_you_go_disabled": "Devre Dışı"
+  },
+  "poe_quota": {
+    "title": "Poe Kotası",
+    "empty_title": "Poe Kimlik Dosyası Yok",
+    "empty_desc": "Compute-points bakiyesini görmek için bir Poe API anahtarı kimlik bilgisi yükle.",
+    "idle": "Kotayı yenilemek için buraya tıkla",
+    "loading": "Kota yükleniyor...",
+    "load_failed": "Kota yüklenemedi: {{message}}",
+    "missing_auth_index": "Kimlik dosyasında auth_index eksik",
+    "empty_data": "Kullanılabilir kota verisi yok",
+    "refresh_button": "Kotayı Yenile",
+    "fetch_all": "Tümünü Getir",
+    "balance_label": "Kullanılabilir puan",
+    "plan_points": "Plan puanları",
+    "addon_points": "Ek puanlar",
+    "usd_equivalent": "USD karşılığı",
+    "next_grant": "Sonraki günlük hibe",
+    "next_grant_amount": "Sonraki günlük hibe: {{amount}}",
+    "cycle_started": "Puan döngüsü başladı"
   },
   "vertex_import": {
     "title": "Vertex JSON Girişi",
